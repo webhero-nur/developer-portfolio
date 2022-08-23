@@ -12,12 +12,16 @@ h3 {
     padding: 5px 0;
 }
 
+p {
+    text-align: justify;
+}
+
 .flex-box {
     display: flex;
 }
 
 #header-section {
-    background-image: url(images/top-banner.png);
+    background-image: url(../images/top-banner.png);
     background-repeat: no-repeat;
     margin-bottom: 100px;
 }
@@ -31,8 +35,12 @@ h3 {
 }
 
 .half-width {
-    width: 50%;
-    padding: 0 5%;
+    /* width: 50%;
+    padding: 0 5%; */
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
 }
 
 .half-width img {
@@ -47,19 +55,18 @@ h3 {
 .btn-design {
     text-decoration: none;
     color: whitesmoke;
-    background-image: linear-gradient(tomato, orange);
-    padding: 10px;
+    background-image: linear-gradient(45deg, tomato, orange);
+    padding: 10px 40px;
     border-radius: 5px;
     font-weight: bold;
 }
 
 .btn-design:hover {
-    color: tomato;
-    background-image: linear-gradient(lightgray, whitesmoke);
+    background-image: linear-gradient(45deg, orange, tomato);
 }
 
 #dream-big-section {
-    background-image: url(images/dream-bg.png);
+    background-image: url(../images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
 }
